@@ -1,0 +1,36 @@
+SIGHUP 	Sent to indicate when a controlling terminal is closed or a parent process exits.
+SIGINT 	Sent to indicate when a user wishes to interrupt a process ((Ctrl+C)).
+SIGQUIT 	Sent to indicate when a user wishes to terminate a process and perform a core dump.
+SIGILL 	Sent to a process to notify that it has attempted to perform an illegal, malformed, unknown, or privileged instruction.
+SIGTRAP 	Sent to a process when an exception has occurred.
+SIGABRT 	Sent to a process to request that it abort.
+SIGIOT 	Synonym for SIGABRT
+SIGBUS 	Sent to a process to notify that it has caused a bus error.
+SIGFPE 	Sent to a process to notify that it has performed an illegal arithmetic operation.
+SIGKILL 	Sent to a process to terminate it immediately.
+SIGUSR1 SIGUSR2 	Sent to a process to identify user-defined conditions.
+SIGSEGV 	Sent to a process to notify of a segmentation fault.
+SIGPIPE 	Sent to a process when it has attempted to write to a disconnected pipe.
+SIGALRM 	Sent to a process when a system timer elapses.
+SIGTERM 	Sent to a process to request termination.
+SIGCHLD 	Sent to a process when a child process terminates.
+SIGSTKFLT 	Sent to a process to indicate a stack fault on a coprocessor.
+SIGCONT 	Sent to instruct the operating system to continue a paused process.
+SIGSTOP 	Sent to instruct the operating system to halt a process.
+SIGTSTP 	Sent to a process to request it to stop.
+SIGBREAK 	Sent to indicate when a user wishes to interrupt a process.
+SIGTTIN 	Sent to a process when it reads from the TTY while in the background.
+SIGTTOU 	Sent to a process when it writes to the TTY while in the background.
+SIGURG 	Sent to a process when a socket has urgent data to read.
+SIGXCPU 	Sent to a process when it has exceeded its limit on CPU usage.
+SIGXFSZ 	Sent to a process when it grows a file larger than the maximum allowed.
+SIGVTALRM 	Sent to a process when a virtual timer has elapsed.
+SIGPROF 	Sent to a process when a system timer has elapsed.
+SIGWINCH 	Sent to a process when the controlling terminal has changed its size.
+SIGIO 	Sent to a process when I/O is available.
+SIGPOLL 	Synonym for SIGIO
+SIGLOST 	Sent to a process when a file lock has been lost.
+SIGPWR 	Sent to a process to notify of a power failure.
+SIGINFO 	Synonym for SIGPWR
+SIGSYS 	Sent to a process to notify of a bad argument.
+SIGUNUSED 	Synonym for SIGSYS
